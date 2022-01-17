@@ -1,4 +1,4 @@
-# NSI-routing-static
+# nsi-routing-static
 Static routing example
 
 ## Requirement
@@ -7,15 +7,15 @@ Static routing example
 
 ## Deployment
 ```
-wget https://github.com/Lier0/NSI-routing-static/archive/refs/heads/main.zip
+wget https://github.com/Lier0/nsi-routing-static/archive/refs/heads/main.zip
 unzip main.zip
-cd NSI-routing-static-main
+cd nsi-routing-static-main
 vagrant up
 ```
 
 ## Doc
 ### local config
-* Check https://github.com/Lier0/NSI-routing-static/blob/main/setup.sh
+* Check https://github.com/Lier0/nsi-routing-static/blob/main/setup.sh
 
 ### man
 https://www.man7.org/linux/man-pages/man8/ip-route.8.html
@@ -23,8 +23,7 @@ https://www.man7.org/linux/man-pages/man8/ip-route.8.html
 `ip route add DEST/MASK dev INTERFACE`, dev if it's host to host physical link.
 => ip r a 10.0.2.0/24 via 10.0.2.15
 
-## Practical Exercice
-
+## Practical Exercice
 192.168.
 60.1, 61.1 <=> 61.2, 62.2 <=> 62.3, 63.3
 
